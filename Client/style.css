@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.register_form,
+.auth_form {
+  margin: 2% auto;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #252eff;
+  font: 700 44px "Inter";
+  text-align: center;
+}
+
+input {
+  border-radius: 10px;
+  border: 2px solid #6066ff;
+  width: 352px;
+  padding: 10px;
+  margin-left: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+}
+
+button {
+  width: 375px;
+  padding: 10px;
+  color: #fff;
+  font: 500 15px "Inter";
+  border-radius: 20px;
+  margin-left: 24px;
+}
+
+.register_button {
+  background: #8b54ff;
+  margin-top: 59px;
+}
+
+.sign_in {
+  background: #6066ff;
+  margin-top: 15px;
+}
+
+.login_button {
+  border-radius: 20px;
+  background: #252eff;
+  width: 153px;
+  height: 38px;
+  padding: 10px;
+  margin: 30px auto;
+}
