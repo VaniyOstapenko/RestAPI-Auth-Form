@@ -4,12 +4,15 @@ document.querySelector('.register_button').addEventListener('click', async () =>
     const phone = document.querySelector('.phone');
     const password = document.querySelector('.password');
     const confirm_password = document.querySelector('.confirm_password');
-
+    if (password.value !== confirm_password.value) {
+        alert('Пароли не совпадают')
+        return;
+    }
     const obj = {
         userName: username.value,
         email: email.value,
         phone: phone.value,
-        pwd: password.value
+        pwd: password.value,
     }
 
     const response = await fetch('http://localhost:3000/api/register', {
